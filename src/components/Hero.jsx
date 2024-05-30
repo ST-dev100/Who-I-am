@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
 import { styles } from "../style";
 import { ComputersCanvas } from "./canvas";
-
+import {EarthCanvas} from "./canvas";
 const Hero = () => {
   return (
     <section className={`relative w-full h-screen mx-auto`}>
-       <div
+      <div
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
         <div className='flex flex-col justify-center items-center mt-5'>
@@ -18,8 +18,8 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Simon Tamene Lebessa</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-           Software Engineer experianced in web applications  <br className='sm:block hidden' />
-            Bringing life to your web applications
+            I develop 3D visuals, user <br className='sm:block hidden' />
+            interfaces and web applications
           </p>
         </div>
       </div>
@@ -44,7 +44,7 @@ const Hero = () => {
         </a>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
