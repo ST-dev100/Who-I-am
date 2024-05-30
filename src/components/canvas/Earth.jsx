@@ -1,45 +1,44 @@
-import React, { useRef, useState , Suspense, useEffect } from "react";
-import { Canvas, useFrame ,  useLoader, useThree } from "@react-three/fiber";
-import {OrbitControls,useAnimations,useFBX,Preload} from "@react-three/drei";
-import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader'
-import { PointLight, Scene } from "three";
+import React, { Suspense } from "react";
+import { Canvas } from "@react-three/fiber";
+import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
+
+import CanvasLoader from "../Loader";
 
 const Earth = () => {
-  return (
-    
-       <Canvas  
-          shadows
-          dpr={[1, 2]}
-          camera={{ position: [1, 1, 8], fov: 8 }}
-          gl={{ preserveDrawingBuffer: true }}>
-          <ambientLight color={"white"} intensity={0.01} />
-          <hemisphereLight groundColor={'black'} intensity={1}/>
-          <pointLight intensity={1}/>
-            <OrbitControls enableZoom={false} />
-            <NewMapModel/>
-           
-            
-      </Canvas>
-
-    
-  )
-}
-
-const NewMapModel = (props) => {
-  const group = useRef()
-  const { scene } =  useLoader(GLTFLoader,'public/desktop_pc/desktop_computer.glb');
-  scene.scale.x = 1.2
-  scene.scale.y = 1.2
-  scene.scale.z = 1.2
-
-  console.log(scene.position)
+  const earth = useGLTF("./planet/scene.gltf");
 
   return (
-    <Suspense fallback={null}>
-      <group >
-        <primitive object={scene} position={[1,0,0]} rotation={[-0.01,-0.2,-0.1]}/>
-      </group>
-    </Suspense>  
+    <primitive object={earth.scene} scale={2.5} position-y={0} rotation-y={0} />
   );
 };
-export default Earth
+
+const EarthCanvas = () => {
+  return (
+    <Canvas
+      shadows
+      frameloop='demand'
+      dpr={[1, 2]}
+      gl={{ preserveDrawingBuffer: true }}
+      camera={{
+        fov: 45,
+        near: 0.1,
+        far: 200,
+        position: [-4, 3, 6],
+      }}
+    >
+      <Suspense fallback={<CanvasLoader />}>
+        <OrbitControls
+          autoRotate
+          enableZoom={false}
+          maxPolarAngle={Math.PI / 2}
+          minPolarAngle={Math.PI / 2}
+        />
+        <Earth />
+
+        <Preload all />
+      </Suspense>
+    </Canvas>
+  );
+};
+
+export default EarthCanvas;
