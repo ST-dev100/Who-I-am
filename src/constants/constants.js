@@ -214,6 +214,10 @@ import {
           color: "green-text-gradient",
         },
         {
+          name: "Apollo-server",
+          color: "text-cyan-400",
+        },
+        {
           name: "tailwind",
           color: "pink-text-gradient",
         },
