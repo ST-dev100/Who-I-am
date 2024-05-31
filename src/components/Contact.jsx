@@ -33,16 +33,16 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        "service_o7lq0cj",
+        "template_el43n4p",
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Simon Tamene Lebessa",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "simalike245@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        "_2CqtVqh4nJsoID0p"
       )
       .then(
         () => {
