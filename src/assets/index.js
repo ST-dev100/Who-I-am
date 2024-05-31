@@ -31,8 +31,8 @@ import EPS from "./company/EPS.png";
 
 
 import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import jobit from "./food.jpg";
+import tripguide from "./Law.jpg";
 
 export {
   logo,
