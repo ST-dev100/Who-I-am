@@ -219,7 +219,7 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/ST-dev100/Company_Messanger_App",
     },
     {
       name: "mern-recipe-book-app-master",
@@ -239,10 +239,10 @@ import {
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/ST-dev100/Food-Recipe-Book/tree/main/mern-recipe-book-app-master",
     },
     {
-      name: "Trip Guide",
+      name: "JMS",
       description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tags: [
