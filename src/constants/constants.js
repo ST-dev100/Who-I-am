@@ -219,7 +219,7 @@ import {
         },
         {
           name: "tailwind",
-          color: "pink-text-gradient",
+          color: "yellow-text-gradient",
         },
       ],
       image: carrent,
