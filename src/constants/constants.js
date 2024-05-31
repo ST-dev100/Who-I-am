@@ -214,12 +214,8 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "Apollo-server",
-          color: "pink-text-gradient",
-        },
-        {
           name: "tailwind",
-          color: "yellow-text-gradient",
+          color: "pink-text-gradient",
         },
       ],
       image: carrent,
