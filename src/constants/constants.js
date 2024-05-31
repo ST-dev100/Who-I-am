@@ -222,9 +222,8 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      name: "mern-recipe-book-app-master",
+      description: "This project is a full-stack web application built using React for the frontend and Express.js with MongoDB for the backend. The frontend uses various packages such as Formik, Yup, FontAwesome, and React-Axios to create a sign-up page with form validation and file upload, a home page with a search bar to fetch data from Spoonacular API, and a profile page that displays user details and saved recipes.The backend uses packages such as bcrypt, body-parser, cors, helmet, jsonwebtoken, mongoose, and multer to handle user authentication, password encryption, and database operations. It checks whether the user exists before storing the user's information in the database and uses JSON web tokens for secure communication between the client and server. The Redux store is used to store the user's details, saved recipes, and the authentication token. The state is also persisted using Redux persist to ensure that the user's details are saved even after refreshing the page. ",
       tags: [
         {
           name: "react",
@@ -243,9 +242,8 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      name: "JMS",
+      description:"The Judge Management System is a software program designed to streamline and simplify the scheduling and assignments of judges for court cases. It helps court administrators and staff efficiently manage the availability and workload of judges, ensuring that cases are assigned to appropriate judges based on their expertise and availability. The system allows for easy and quick scheduling, rescheduling, and tracking of judges' assignments, helping to reduce bottlenecks and delays in court proceedings. Additionally, the Judge Management System provides reporting and analytics tools to help track judges' performance and workload, enabling court administrators to make data-driven decisions for more efficient and effective case management. Overall, the system helps improve the efficiency and effectiveness of court operations by optimizing the allocation of judicial resources.",
       tags: [
         {
           name: "nextjs",
