@@ -242,8 +242,9 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "JMS",
-      description:"The Judge Management System is a software program designed to streamline and simplify the scheduling and assignments of judges for court cases. It helps court administrators and staff efficiently manage the availability and workload of judges, ensuring that cases are assigned to appropriate judges based on their expertise and availability. The system allows for easy and quick scheduling, rescheduling, and tracking of judges' assignments, helping to reduce bottlenecks and delays in court proceedings. Additionally, the Judge Management System provides reporting and analytics tools to help track judges' performance and workload, enabling court administrators to make data-driven decisions for more efficient and effective case management. Overall, the system helps improve the efficiency and effectiveness of court operations by optimizing the allocation of judicial resources.",
+      name: "Trip Guide",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tags: [
         {
           name: "nextjs",
