@@ -215,7 +215,7 @@ import {
         },
         {
           name: "Apollo-server",
-          color: "text-cyan-400",
+          color: "pink-text-gradient",
         },
         {
           name: "tailwind",
