@@ -210,12 +210,16 @@ import {
           color: "blue-text-gradient",
         },
         {
+          name:"Apollo-server",
+          color:"pink-text-gradient"
+        },
+        {
           name: "mongodb",
           color: "green-text-gradient",
         },
         {
           name: "tailwind",
-          color: "pink-text-gradient",
+          color: "text-cyan-400",
         },
       ],
       image: carrent,
@@ -234,7 +238,7 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "tailwindcss",
           color: "pink-text-gradient",
         },
       ],
@@ -247,7 +251,7 @@ import {
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tags: [
         {
-          name: "nextjs",
+          name: "reactjs",
           color: "blue-text-gradient",
         },
         {
@@ -260,7 +264,7 @@ import {
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/skylightethiopiadev/jms-main",
     },
   ];
   // const projects = [
