@@ -33,8 +33,11 @@ import EPS from "./company/EPS.png";
 import carrent from "./carrent.png";
 import jobit from "./food.jpg";
 import tripguide from "./Law.jpg";
+import chat from "./chat.png";
+
 
 export {
+  chat,
   logo,
   backend,
   creator,

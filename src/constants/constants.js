@@ -1,4 +1,5 @@
 import {
+    chat,
     mobile,
     backend,
     creator,
@@ -201,6 +202,30 @@ import {
   
 
   const projects = [
+    {
+      name: "Real-Time-Communication Chat application",
+      description: "Web-based platform that allows users to engage in real-time conversations with each other over the internet. Users can send instant messages and participate in group chats. The application provides a seamless and responsive chat experience, with messages appearing instantly on the screen as they are sent. It also offers features such as message encryption, user authentication, and notification alerts to enhance the overall communication experience. Users can access the web application from any device with an internet connection, making it convenient and accessible for both personal and professional use.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name:"Socket io",
+          color:"pink-text-gradient"
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwindcss and dasyUI",
+          color: "text-cyan-400",
+        },
+      ],
+      image: chat,
+      source_code_link: "https://github.com/ST-dev100/MERN-REAL-TIME-CHAT-APPLICATION",
+    },
     {
       name: "Real-Time-Communication Chat application",
       description: "Web-based platform that allows users to engage in real-time conversations with each other over the internet. Users can send instant messages, share files, emojis, and multimedia content, and participate in group chats. The application provides a seamless and responsive chat experience, with messages appearing instantly on the screen as they are sent. It also offers features such as message encryption, user authentication, and notification alerts to enhance the overall communication experience. Users can access the web application from any device with an internet connection, making it convenient and accessible for both personal and professional use.",
