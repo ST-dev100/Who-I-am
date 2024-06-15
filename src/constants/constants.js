@@ -1,4 +1,5 @@
 import {
+    mama,
     chat,
     mobile,
     backend,
@@ -225,6 +226,30 @@ import {
       ],
       image: chat,
       source_code_link: "https://github.com/ST-dev100/MERN-REAL-TIME-CHAT-APPLICATION",
+    },
+    {
+      name: "Food Recipe App",
+      description: "The users Can Search any food throught the world and show the full instructions to make the selected foods then they can add into favourite lists nextime when they use the app they can easily find their favourites it's very attractive and appealing UI",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name:"react-router-dom",
+          color:"pink-text-gradient"
+        },
+        {
+          name: "dasyUI",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwindcss",
+          color: "text-cyan-400",
+        },
+      ],
+      image: mama,
+      source_code_link: "https://github.com/ST-dev100/Recipe-App",
     },
     {
       name: "Real-Time-Communication Chat application",

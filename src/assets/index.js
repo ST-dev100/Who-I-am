@@ -34,9 +34,11 @@ import carrent from "./carrent.png";
 import jobit from "./food.jpg";
 import tripguide from "./Law.jpg";
 import chat from "./chat.png";
+import mama from "./mama.png";
 
 
 export {
+  mama,
   chat,
   logo,
   backend,
